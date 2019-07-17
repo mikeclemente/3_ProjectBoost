@@ -596,7 +596,7 @@ Rigidbody:
   m_GameObject: {fileID: 7028187067500269015}
   serializedVersion: 2
   m_Mass: 0.05
-  m_Drag: 0.2
+  m_Drag: 0.9
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -613,7 +613,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cf3f0e4548d1df842b925f5ebe5cd3f4, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -712,7 +712,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rcsThrust: 250
-  mainThrust: 50
+  mainThrust: 150
+  mainEngine: {fileID: 8300000, guid: ae4ff220b5c9de345ac248b5115ab6de, type: 3}
+  sucess: {fileID: 8300000, guid: 5ebedf5bc5219ed428c841b77656eebe, type: 3}
+  death: {fileID: 8300000, guid: f0ee492a1a3f6474d9bda23dd5359aa2, type: 3}
 --- !u!1 &7363584812716272635
 GameObject:
   m_ObjectHideFlags: 0
